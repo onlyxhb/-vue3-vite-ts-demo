@@ -33,9 +33,13 @@ const count = ref(0)
   </p>
 </template>
 
-<style scoped>
-a {
-  color: #42b983;
+<style lang="less" scoped>
+p {
+  color: #000;
+
+  a {
+    color: #42b983;
+  }
 }
 
 label {
